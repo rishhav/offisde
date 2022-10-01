@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Machina;
+    src: url(../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+
+.wrapper {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.container {
+    width: 100%;
+    height: 72vh;
+    background-color: #8D65FE;
+    border-radius: 36px;
+    padding: 20px;
+    display: flex;
+    padding: 48px;
+    position: relative;
+    margin-top: 26px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 0;
+    max-width: 720px;
+}
+
+.logo {
+    flex: 1 0 0;
+}
+
+.image1 {
+    position: absolute;
+    top: 20px;
+    width: 40%;
+}
+
+.image2 {
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    width: 38%;
+}
+
+.brandName {
+    font-family: Machina;
+    color: #21252A;
+    font-size: 6vw;
+}
+
+.downloadOptions {
+    display: flex;
+}
+
+.starIcon {
+    position: absolute;
+    left: 20px;
+    bottom: 36px;
+}
+
+.brandDesc {
+    font-family: Montserrat;
+    font-size: 2vw;
+}

@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: Machina;
+    src: url(../../../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #FCF8F5;
+    margin-right: 28px;
+    width: 260px;
+}
+
+.imageContainer {
+    background-color: #1890FF;
+    height: 320px;
+    border-radius: 36px;
+    margin-bottom: 32px;
+}
+
+.header {
+    font-family: Machina;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.subHeader {
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-left: 16px;
+
+}

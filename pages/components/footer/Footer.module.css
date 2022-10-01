@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Machina;
+    src: url(./fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+
+.container {
+    height: 340px;
+    background-color: black;
+    padding: 4rem 15rem;
+    display: flex;
+    color: #FCF8F5;
+}
+
+.contact {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.contactHeader {
+    font-family: Machina;
+    font-size: 48px;
+}
+
+.contactDetails {
+    display: flex;
+    margin-top: 'auto';
+    flex-grow: 1;
+    height: 100%;
+}
+
+.ContactChannel {
+    display: flex;
+    align-items: center;
+}
+
+.ContactChannelDetails {
+    margin-left: 16px;
+    margin-right: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactChannelHeader {
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.ContactChannelContent {
+    font-family: Montserrat;
+    font-size: 16px;
+}

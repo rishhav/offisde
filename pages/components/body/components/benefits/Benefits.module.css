@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: Machina;
+    src: url(../../../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    height: 620px;
+    position: relative;
+    flex-direction: column;
+}
+
+.header {
+    font-family: Machina;
+    font-size: 52px;
+    color: #FCF8F5;
+    flex: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsContainer {
+    display: flex;
+    height: 320px;
+    margin-top: 64px;
+}
+
+.referralCard {
+    background-color: #1890FF;
+    height: 100%;
+    border-radius: 36px;
+    flex: 1.2 0 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    color: #FCF8F5;
+}
+
+.cardHeader {
+    font-family: Machina;
+    font-size: 58px;
+    margin-bottom: 36px;
+}
+
+.cardSubHeader {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.rewardsCard {
+    background-color: #8D65FE;
+    height: 100%;
+    border-radius: 36px;
+    flex: 2 0 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    color: #FCF8F5;
+}
+
+.star {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

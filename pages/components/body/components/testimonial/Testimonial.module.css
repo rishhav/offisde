@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: Machina;
+    src: url(../../../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 620px;
+    position: relative;
+    flex-direction: column;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Machina;
+    font-size: 52px;
+    color: #FCF8F5;
+}
+
+.star {
+    position: absolute;
+    top: -100px;
+    right: 0px;
+}
+
+.testimonyContainer {
+    display: flex;
+}
