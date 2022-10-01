@@ -11,12 +11,14 @@ export const Footer = (): ReactElement => {
     <div className={styles.container}>
       <div className={styles.contact}>
         <div className={styles.contactHeader}>Contact us</div>
-        <div className={styles.contactDetails}>
+        {/* <div className={styles.contactDetails}>
           <div
             style={{ marginTop: "auto", marginBottom: "auto" }}
             className={styles.ContactChannel}
           >
-            <Image src={Email} alt="Email" width={104} />
+            <div className={styles.emailIcon}>
+              <Image src={Email} alt="Email" />
+            </div>
             <div className={styles.ContactChannelDetails}>
               <div className={styles.ContactChannelHeader}>Email Address</div>
               <div className={styles.ContactChannelContent}>
@@ -28,13 +30,15 @@ export const Footer = (): ReactElement => {
             style={{ marginTop: "auto", marginBottom: "auto" }}
             className={styles.ContactChannel}
           >
-            <Image src={Whatsapp} alt="whatsapp" width={52} height={52} />
+            <div className={styles.whatsappIcon}>
+              <Image src={Whatsapp} alt="whatsapp" />
+            </div>
             <div className={styles.ContactChannelDetails}>
               <div className={styles.ContactChannelHeader}>Phone Number</div>
               <div className={styles.ContactChannelContent}>+91-8826060074</div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.logos}></div>
     </div>

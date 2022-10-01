@@ -14,26 +14,27 @@
     display: flex;
     flex-direction: column;
     color: #FCF8F5;
-    margin-right: 28px;
-    width: 260px;
+    margin-right: 5%;
+    width: 100%;
+    flex: 1;
+    width: 30%;
 }
 
 .imageContainer {
     background-color: #1890FF;
-    height: 320px;
-    border-radius: 36px;
-    margin-bottom: 32px;
+    border-radius: 2vw;
+    margin-bottom: 8%;
+    height: 50%;
 }
 
 .header {
     font-family: Machina;
-    font-size: 24px;
-    margin-left: 16px;
+    font-size: 1.6vw;
+    margin-left: 2%;
 }
 
 .subHeader {
     font-family: Montserrat;
-    font-size: 18px;
-    margin-left: 16px;
-
+    font-size: 1vw;
+    margin-left: 1%;
 }

@@ -20,7 +20,7 @@ export const Feature = (): ReactElement => {
         ))}
       </div>
       <div className={styles.star}>
-        <Image src={Star} alt="feature sparkle icon" width={150} />
+        <Image src={Star} alt="feature sparkle icon" />
       </div>
     </div>
   );

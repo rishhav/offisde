@@ -9,29 +9,46 @@
     src: url(../../../../../styles/fonts/Montserrat-Medium.ttf);
 }
 
+@media (max-width: 1400px) {
+    .container {
+        padding: 5%;
+    }
+    .star {
+        bottom: 0px;
+        right: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .star {
+        bottom: 0px;
+        right: 0px;
+    }
+}
 
 .container {
     display: flex;
-    margin-top: 200px;
-    height: 640px;
+    margin-top: 16%;
     position: relative;
 }
 
 .title {
     font-family: Machina;
-    font-size: 58px;
+    font-size: 3.2vw;
     color: #FCF8F5;
     flex: 1 0 0;
+    margin-bottom: 30%;
 }
 
 .featureCardsContainer {
     flex: 2 0 0;
     display: flex;
+    margin-left: 24px;
+    width: 100%;
 }
 
 .star {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    width: 12%;
 }
 

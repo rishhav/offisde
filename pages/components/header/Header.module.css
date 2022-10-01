@@ -7,6 +7,7 @@
   font-family: Montserrat;
   src: url(../../../styles/fonts/Montserrat-Medium.ttf);
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -23,7 +24,6 @@
   color: gray;
   flex: 1 0 0;
   font-family: Montserrat;
-  font-size: 48px;
-  margin-top: 36px;
-  margin-bottom: 10px;
+  margin-top: 2%;
+  font-size: 3.6vw;
 }

@@ -22,7 +22,7 @@ export const Benefits = (): ReactElement => {
           <div className={styles.cardHeader}>
             Use the platform & win rewards
           </div>
-          <div className={styles.cardSubHeader}>
+          <div className={styles.referralSubHeader}>
             Take part in various platform events during live matches to be
             eligible to win weekly prizes.
           </div>
@@ -30,7 +30,7 @@ export const Benefits = (): ReactElement => {
       </div>
 
       <div className={styles.star}>
-        <Image src={Star} alt="star image" width={150} />
+        <Image src={Star} alt="star image" />
       </div>
     </div>
   );

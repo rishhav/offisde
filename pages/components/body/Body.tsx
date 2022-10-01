@@ -27,17 +27,15 @@ export const Body = (): ReactElement => (
           Get offside & enjoy live matches with your friends like never before
         </div>
         <div className={styles.downloadOptions}>
-          <Link href="">
-            <a style={{ marginRight: 20, marginTop: 4 }}>
-              <Image src={AppStore} alt="AppStore" width={170} />
-            </a>
-          </Link>
-          <Link href="">
-            <Image src={GooglePlay} alt="GooglePlay" width={170} />
-          </Link>
+          <a className={styles.appStore}>
+            <Image src={AppStore} alt="AppStore" />
+          </a>
+          <a className={styles.googlePlay}>
+            <Image src={GooglePlay} alt="GooglePlay" />
+          </a>
         </div>
         <div className={styles.starIcon}>
-          <Image src={Star} alt="header_star" width={150} />
+          <Image src={Star} alt="header_star" />
         </div>
       </div>
       <div className={styles.logo}>

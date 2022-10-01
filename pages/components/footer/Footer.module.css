@@ -1,17 +1,30 @@
 @font-face {
     font-family: Machina;
-    src: url(./fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+    src: url(../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(./fonts/Montserrat-Medium.ttf);
+    src: url(../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+@media (min-width: 1400px) {
+    .container {
+        padding-left: 14%;
+        padding-right: 14%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        padding: 5%;
+    }
 }
 
 .container {
-    height: 340px;
     background-color: black;
-    padding: 4rem 15rem;
     display: flex;
     color: #FCF8F5;
 }
@@ -23,7 +36,7 @@
 
 .contactHeader {
     font-family: Machina;
-    font-size: 48px;
+    font-size: 4vw;
 }
 
 .contactDetails {
@@ -47,10 +60,18 @@
 
 .ContactChannelHeader {
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 2vw;
 }
 
 .ContactChannelContent {
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1.2vw;
+}
+
+.whatsappIcon {
+    width: 60%;
+}
+
+.emailIcon {
+    width: 60%;
 }

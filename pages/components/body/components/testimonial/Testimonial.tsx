@@ -22,7 +22,7 @@ export const Testimonial = (): ReactElement => {
       </div>
 
       <div className={styles.star}>
-        <Image src={Star} alt="star image" width={150} />
+        <Image src={Star} alt="star image" />
       </div>
     </div>
   );

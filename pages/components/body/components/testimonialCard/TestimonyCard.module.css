@@ -9,17 +9,18 @@
 }
 
 
+
+
 .container {
     display: flex;
     flex-direction: column;
-    margin-top: 64px;
-    height: 480px;
+    margin-top: 4%;
     width: 100%;
     background-color: black;
-    margin-left: 32px;
-    margin-right: 32px;
-    border-radius: 36px;
-    padding: 36px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 2vw;
+    padding: 4%;
     color: #FCF8F5;
 }
 
@@ -30,12 +31,12 @@
 .testimonyName {
     flex: 0;
     font-family: Machina;
-    font-size: 24px;
+    font-size: 1.6vw;
     margin-bottom: 16px;
 }
 
 .testimony {
     flex: 0;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 1vw;
 }
