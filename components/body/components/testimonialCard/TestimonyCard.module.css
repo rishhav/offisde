@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Machina;
+    src: url(../../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    width: 100%;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 2vw;
+    padding: 4%;
+    color: #FCF8F5;
+}
+
+.testimonyImage {
+    flex: 1 0 0;
+}
+
+.testimonyName {
+    flex: 0;
+    font-family: Machina;
+    font-size: 1.6vw;
+    margin-bottom: 16px;
+}
+
+.testimony {
+    flex: 0;
+    font-family: Montserrat;
+    font-size: 1vw;
+}

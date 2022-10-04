@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: Machina;
+    src: url(../../../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+@media (max-width: 1400px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .star {
+        bottom: 0px;
+        left: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .star {
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+.container {
+    display: flex;
+    margin-top: 4%;
+    position: relative;
+    flex-direction: column;
+}
+
+.header {
+    font-family: Machina;
+    font-size: 3.2vw;
+    color: #FCF8F5;
+    flex: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsContainer {
+    display: flex;
+    margin-top: 6%;
+    margin-bottom: 16%;
+}
+
+.referralCard {
+    background-color: #1890FF;
+    border-radius: 2vw;
+    flex: 1.2 0 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3.2%;
+    display: flex;
+    flex-direction: column;
+    color: #FCF8F5;
+}
+
+.cardHeader {
+    font-family: Machina;
+    font-size: 3.2vw;
+    margin-bottom: 3.2%;
+}
+
+.referralSubHeader {
+    font-family: Montserrat;
+    font-size: 1vw;
+}
+
+.rewardsCard {
+    background-color: #8D65FE;
+    border-radius: 2vw;
+    flex: 2 0 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3.2%;
+    display: flex;
+    flex-direction: column;
+    color: #FCF8F5;
+}
+
+.star {
+    position: absolute;
+    width: 12%;
+}

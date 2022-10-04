@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Machina;
+    src: url(../../styles/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../styles/fonts/Montserrat-Medium.ttf);
+}
+
+@media (min-width: 1400px) {
+    .wrapper {
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
+    .container {
+        border-radius: 36px;
+    }
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    background-color: #8D65FE;
+    padding: 5%;
+    display: flex;
+    position: relative;
+    margin-top: 26px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 0;
+    max-width: 60%;
+}
+
+.logo {
+    flex: 1 0 0;
+}
+
+.image1 {
+    position: absolute;
+    top: 5%;
+    right: 0.5%;
+    width: 40%;
+}
+
+.image2 {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    width: 38%;
+}
+
+.brandName {
+    font-family: Machina;
+    color: #21252A;
+    font-size: 6vw;
+}
+
+.downloadOptions {
+    display: flex;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+.starIcon {
+    position: absolute;
+    left: 20px;
+    bottom: 6%;
+    width: 12%;
+}
+
+.brandDesc {
+    font-family: Montserrat;
+    font-size: 2vw;
+}
+
+.appStore{ 
+    margin-right: 20px; 
+    width: 26%;
+    height: 32%;
+}
+
+.googlePlay {
+    width: 26%;
+    height: 32%;
+}
+
