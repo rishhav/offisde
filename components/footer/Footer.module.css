@@ -10,9 +10,9 @@
 
 @media (min-width: 1400px) {
     .container {
-        padding-left: 14%;
-        padding-right: 14%;
-        padding-top: 5%;
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 3%;
         padding-bottom: 5%;
     }
 }
@@ -36,7 +36,8 @@
 
 .contactHeader {
     font-family: Machina;
-    font-size: 4vw;
+    font-size: 2.8vw;
+    margin-bottom: 4%;
 }
 
 .contactDetails {
@@ -44,23 +45,32 @@
     margin-top: 'auto';
     flex-grow: 1;
     height: 100%;
+    width: 64%;
 }
 
-.ContactChannel {
+
+.ContactEmailChannel {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.ContactWhatsappChannel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4vw;
 }
 
 .ContactChannelDetails {
-    margin-left: 16px;
-    margin-right: 36px;
     display: flex;
     flex-direction: column;
+    padding-left: 1vw;
 }
 
 .ContactChannelHeader {
     font-family: Montserrat;
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 
 .ContactChannelContent {
@@ -68,10 +78,43 @@
     font-size: 1.2vw;
 }
 
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos_row {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.logos_row_item {
+    height: 7.2vw;
+    width: 7.2vw;
+}
+
 .whatsappIcon {
-    width: 60%;
+    height: 3.2vw;
+    width: 3.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .emailIcon {
-    width: 60%;
+    height: 3.2vw;
+    width: 3.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoFooter {
+    font-family: Montserrat;
+    font-size: 1.2vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }

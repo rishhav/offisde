@@ -1,11 +1,14 @@
 import { ReactElement } from "react";
+import Image from "next/image";
 
 import styles from "./TestimonyCard.module.css";
 
 export const TestimonyCard = ({
+  id,
   name,
   testimony,
 }: {
+  id: string;
   name: string;
   testimony: string;
 }): ReactElement => {

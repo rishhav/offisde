@@ -17,7 +17,7 @@ export const Testimonial = (): ReactElement => {
       </div>
       <div className={styles.testimonyContainer}>
         {CARDS.map(({ id, name, testimony }) => (
-          <TestimonyCard key={id} name={name} testimony={testimony} />
+          <TestimonyCard key={id} id={id} name={name} testimony={testimony} />
         ))}
       </div>
 

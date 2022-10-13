@@ -25,6 +25,9 @@
     border-radius: 2vw;
     margin-bottom: 8%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -35,6 +38,6 @@
 
 .subHeader {
     font-family: Montserrat;
-    font-size: 1vw;
+    font-size: 1.4vw;
     margin-left: 2%;
 }

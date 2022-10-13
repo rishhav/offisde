@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "./Benefits.module.css";
 
 import Star from "../../assets/stars.svg";
+import Coin from "./assets/coins.svg";
+import Gift from "./assets/gift.svg";
 
 export const Benefits = (): ReactElement => {
   return (
@@ -17,6 +19,9 @@ export const Benefits = (): ReactElement => {
           <div className={styles.referralSubHeader}>
             Refer friends to receive bi-weekly rewards
           </div>
+          <div className={styles.imageCoin}>
+            <Image src={Coin} alt="coin" />
+          </div>
         </div>
         <div className={styles.rewardsCard}>
           <div className={styles.cardHeader}>
@@ -25,6 +30,9 @@ export const Benefits = (): ReactElement => {
           <div className={styles.referralSubHeader}>
             Take part in various platform events during live matches to be
             eligible to win weekly prizes.
+          </div>
+          <div className={styles.imageGift}>
+            <Image src={Gift} alt="gift" />
           </div>
         </div>
       </div>

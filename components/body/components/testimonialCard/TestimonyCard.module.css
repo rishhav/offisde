@@ -8,9 +8,6 @@
     src: url(../../../../styles/fonts/Montserrat-Medium.ttf);
 }
 
-
-
-
 .container {
     display: flex;
     flex-direction: column;
@@ -38,5 +35,5 @@
 .testimony {
     flex: 0;
     font-family: Montserrat;
-    font-size: 1vw;
+    font-size: 1.4vw;
 }
