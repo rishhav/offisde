@@ -6,12 +6,12 @@ export const CARDS = [
   },
   {
     id: "THUMB",
-    header: "Non-money predictions",
-    subHeader: "Engage with your friends and match through live predictions",
+    header: "Predictions",
+    subHeader: "Participate in non-money live prediction events",
   },
   {
     id: "CONVERSATION",
-    header: "Guided chat",
-    subHeader: "Tasteful elements to mix and match for an elevated look",
+    header: "'Game' chat",
+    subHeader: "Chat mechanism designed for seamless discussions during live games",
   },
 ];

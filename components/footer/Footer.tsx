@@ -28,7 +28,7 @@ export const Footer = (): ReactElement => {
             <div className={styles.ContactChannelDetails}>
               <div className={styles.ContactChannelHeader}>Email Address</div>
               <div className={styles.ContactChannelContent}>
-                info@offside.com
+                info@offside.club
               </div>
             </div>
           </a>

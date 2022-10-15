@@ -32,7 +32,7 @@ export const Body = (): ReactElement => (
           </a>
           <a
             className={styles.googlePlay}
-            href="https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.myapp"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ export const Body = (): ReactElement => (
     </div>
     <Feature />
     <Benefits />
-    <Testimonial />
+    {/* <Testimonial /> */}
   </div>
 );
 

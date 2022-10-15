@@ -23,6 +23,7 @@ export const Feature = (): ReactElement => {
             subHeader={card.subHeader}
           />
         ))}
+        <br/>
       </div>
       <div className={styles.star}>
         <Image src={Star} alt="feature sparkle icon" />
