@@ -25,9 +25,6 @@ export const Feature = (): ReactElement => {
         ))}
         <br/>
       </div>
-      <div className={styles.star}>
-        <Image src={Star} alt="feature sparkle icon" />
-      </div>
     </div>
   );
 };
