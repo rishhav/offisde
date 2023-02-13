@@ -1,0 +1,170 @@
+// Importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "Neue-Ultrabold";
+    src: url("./assets/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf");
+}
+
+$color1: #3783eb;
+$color2: #21252a;
+$text-color: #fcf8f5;
+
+$primary: $color1;
+$secondary: $color2;
+
+@import "~/node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color2;
+}
+
+.text {
+    font-family: 'Neue-Ultrabold';
+    color: $text-color;
+}
+
+.text-2 {
+    font-family: 'Neue-Ultrabold';
+    color: $text-color;
+}
+
+.heading-regular {
+    font-weight: 500;
+}
+
+.navbar-logo {
+    width: 100px;
+}
+
+// *************************************************HOME SECTION*************************************************
+.store-logos-home {
+    max-width: 300px;
+}
+
+.app-store-logo-home {
+    margin-top: -45px;
+    margin-left: -5px;
+    height: 125px;
+}
+
+.play-store-logo-home {
+    height: 35px;
+}
+
+.home-illustration {
+    width: 100%;
+}
+
+// ****************************************************REWARDS****************************************************
+
+
+// *************************************************TESTIMONIALS*************************************************
+.testimonial-card-container {
+    width: 100%;
+    max-width: 350px;
+    background-color: black;
+    min-height: 450px;
+}
+
+.testimonial-card-image {
+    width: 150px;
+    height: 150px;
+}
+
+// **************************************************FOOTER**************************************************
+.footer-contact-image {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-icons-container {
+    width: 80%;
+}
+
+$services-icon-size: 30%;
+
+.services-icon {
+    width: $services-icon-size;
+    height: $services-icon-size;
+}
+
+// Media Queries
+@include media-breakpoint-up(sm) {
+    .store-logos-home {
+        max-width: none;
+    }
+
+    .footer-contact-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-icons-container {
+        width: 70%;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .navbar-logo {
+        width: 150px;
+    }
+
+    .home-illustration {
+        width: 80%;
+    }
+
+    .app-store-logo-home {
+        margin-top: -49px;
+        height: 135px;
+    }
+
+    .play-store-logo-home {
+        height: 39px;
+    }
+
+    .footer-icons-container {
+        width: 50%;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .app-store-logo-home {
+        margin-top: -54px;
+        height: 150px;
+    }
+
+    .play-store-logo-home {
+        height: 43px;
+    }
+
+    .testimonial-card-container {
+        min-height: 500px;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .app-store-logo-home {
+        margin-top: -60px;
+        height: 165px;
+    }
+
+    .play-store-logo-home {
+        height: 47px;
+    }
+
+    .testimonial-card-container {
+        min-height: 600px;
+    }
+
+    .testimonial-card-image {
+        width: 260px;
+        height: 260px;
+    }
+}
